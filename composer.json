@@ -1,0 +1,23 @@
+{
+    "name": "cashberry/cashberry_common_components",
+    "description": "cashberry_common_components",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alex Sidelnik",
+            "email": "aleksandr.sidelnik@cashberry.com.ua"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1",
+        "guzzlehttp/guzzle": "^7.1@dev",
+        "karriere/json-decoder": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "CashBerry": "src/"
+        }
+    }
+}
