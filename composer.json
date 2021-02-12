@@ -13,7 +13,7 @@
     "require": {
         "php": ">=7.1",
         "guzzlehttp/guzzle": "^6.4",
-        "karriere/json-decoder": "dev-master"
+        "karriere/json-decoder": "*"
     },
     "autoload": {
         "psr-0": {
