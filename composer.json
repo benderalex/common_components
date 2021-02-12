@@ -12,8 +12,8 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=7.1",
-        "guzzlehttp/guzzle": "^6.4",
-        "karriere/json-decoder": "*"
+        "karriere/json-decoder": "*",
+        "guzzlehttp/guzzle": "^6.4"
     },
     "autoload": {
         "psr-0": {
