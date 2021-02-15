@@ -114,9 +114,9 @@ class Client
                 ],
                 'code' => $exception->getCode()
             ]);
-
-            return $response;
         }
+
+        return $response;
     }
 
     /**
