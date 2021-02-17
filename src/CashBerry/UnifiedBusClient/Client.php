@@ -44,7 +44,7 @@ class Client
      */
     private function getResponseByServiceName(string $serviceName): ResponsePayload
     {
-        $methodName = 'response' . str_replace('-', '', ucwords($serviceName, '-'));
+        $methodName = 'response' . str_replace('_', '', ucwords($serviceName, '-'));
 
         if (!method_exists($this->factory,  $methodName)) {
             throw new \Exception("method " . $methodName . "doesn't exist");
