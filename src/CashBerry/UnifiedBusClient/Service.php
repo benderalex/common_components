@@ -9,4 +9,6 @@ namespace CashBerry\UnifiedBusClient;
 interface Service
 {
     public const HIGH_RISK_DB = 'high_risk_db';
+
+    public const KYIVSTAR_SIM_COUNT = 'kyivstar_sim_count';
 }
