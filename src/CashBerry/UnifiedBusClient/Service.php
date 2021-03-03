@@ -12,5 +12,5 @@ interface Service
 
     public const KYIVSTAR_SIM_COUNT = 'kyivstar_sim_count';
 
-    public const PUBM = 'pumb';
+    public const PUMB = 'pumb';
 }
