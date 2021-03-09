@@ -72,7 +72,8 @@ class Client
                     'json' =>
                         [
                             'serviceName' => $serviceName,
-                            'payload' => $request->getBody()
+                            'payload' => $request->getBody(),
+                            'requestId' => $uuid
                         ]
                 ]
             );
