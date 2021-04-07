@@ -13,4 +13,6 @@ interface Service
     public const KYIVSTAR_SIM_COUNT = 'kyivstar_sim_count';
 
     public const PUMB = 'pumb';
+
+    public const PUMB_MONOBANK = 'pumb_monobank/pumb';
 }
