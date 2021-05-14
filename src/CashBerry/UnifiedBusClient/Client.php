@@ -11,6 +11,7 @@ use Psr\Log\LoggerInterface;
 /**
  * Class Client
  * @package CashBerry\UnifiedBusClient
+ * @deprecated
  */
 class Client
 {
