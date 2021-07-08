@@ -89,6 +89,11 @@ abstract class AbstractRequestPayload
                 continue;
             }
 
+            if (is_array($p)) {
+                $result[$n] = $p;
+                continue;
+            }
+
             throw new RuntimeException("Property $n contains wrong value");
         }
 
